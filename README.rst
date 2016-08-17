@@ -51,6 +51,10 @@ Send your first notification::
 
 This uses a bunch of defaults which you can override per setting, or just in the message dict.
 
+You can use this management command to test your settings::
+
+    python manage.py test_slack_notification
+
 Settings
 ########
 

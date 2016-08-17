@@ -33,9 +33,9 @@ You can generate a tokens here: https://api.slack.com/web#authentication
 Add to your ``routing.py``::
 
     from channels.routing import include
-    from channels_slack_notifications.routing imoprt slack_routing
+    from channels_slack_notifications.routing import slack_routing
 
-    routing = [
+    channels_routing = [
         include(slack_routing),
     ]
 
@@ -54,7 +54,8 @@ This uses a bunch of defaults which you can override per setting, or just in the
 Settings
 ########
 
-``CHANNELS_SLACK_TOKEN``
+``CHANNELS_SL
+ACK_TOKEN``
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Default: ``None``

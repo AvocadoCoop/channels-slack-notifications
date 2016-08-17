@@ -14,8 +14,8 @@ class AppSettings(object):
 
     TOKEN = setting('TOKEN', None)
     CHANNEL = setting('CHANNEL', '#general')
-    USERNAME = setting('USERNAME', 'bot')
-    ICON_EMOJI = setting('ICON_EMOJI', ':robot:')
+    USERNAME = setting('USERNAME', 'notifcationbot')
+    ICON_EMOJI = setting('ICON_EMOJI', ':robot_face:')
 
     BACKEND = setting('BACKEND', DEFAULT_BACKEND)
 

@@ -15,7 +15,7 @@ class SlackException(ValueError):
 
 def console(data, url):
     print("-" * 79)
-    print("I: Slack message:")
+    print("Slack message:")
     pprint.pprint(data, indent=4)
     print("-" * 79)
 
@@ -44,6 +44,6 @@ def get_backend():
     get_backend() caches the backend on first call.
     """
     if get_backend.backend is None:
-        get_backend.backend = import_string(app_settings.BACKEND)()
+        get_backend.backend = import_string(app_settings.BACKEND)
     return get_backend.backend
 get_backend.backend = None

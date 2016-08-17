@@ -2,6 +2,10 @@
 Channels Slack Notificaitons
 ****************************
 
+
+.. image:: https://img.shields.io/pypi/v/channels-slack-notifications.svg
+    :target: https://pypi.python.org/pypi/channels-slack-notifications
+
 If you want to asyncronously send low priority messages to a
 Slack channel using `Django Channels <https://channels.readthedocs.io/en/latest/>`_
 this is the 3rd party library for you.

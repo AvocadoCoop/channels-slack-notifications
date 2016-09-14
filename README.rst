@@ -46,7 +46,7 @@ Add to your ``routing.py``::
 
 Send your first notification::
 
-    from channels_slack_notifications
+    from channels import Channel
 
     message = dict(
         text = 'this is a test',

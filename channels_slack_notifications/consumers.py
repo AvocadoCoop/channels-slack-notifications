@@ -19,7 +19,6 @@ def handle_notification(message):
         username = app_settings.USERNAME,
         as_user = False,
     )
-
-    slack_data.update(message.data)
+    slack_data.update(message)
 
     backend(slack_data, endpoint_url)
